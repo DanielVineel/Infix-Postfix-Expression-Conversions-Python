@@ -43,6 +43,6 @@ def getInfixExpression():
         return f"Invalid Syntax"
 
 if(__name__=="__main__"):
-    app.run(host="127.0.0.1",port=300,debug=True)
+    app.run(host="127.0.0.1",port=300,debug=False)
 
     # created by G Daniel Vineel
