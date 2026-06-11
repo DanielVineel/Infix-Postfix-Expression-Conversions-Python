@@ -20,7 +20,7 @@ templates/ → index.html, infix-postfix.html, postfix-infix.html
 ## 🚀 Run Locally
 pip install flask  
 python app.py  
-Then open: http://127.0.0.1:300  
+Then open: http://0.0.0.0:3000  
 
 ## 🔹 API
 | Route | Method | Description |
