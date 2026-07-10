@@ -16,9 +16,9 @@ body{
 
      background-image: linear-gradient(40deg,blueviolet,red); */
     /* background-image: linear-gradient(40deg,  #0000FF,#000000,#4B0082); */
-background: linear-gradient(37deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
 
-background: linear-gradient(17deg, #000000 12%, #276ef1 83%);
+
+background: linear-gradient(135deg, #001F3F 0%, #0056b3 100%);
 }
 #outer-layer{
     padding:10px;

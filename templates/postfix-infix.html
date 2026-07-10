@@ -9,18 +9,20 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 
-    <link rel="shortcut icon" href="{{ url_for('static',filename='images/coding-logo.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='logo.jpeg')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}" >
     <link rel="stylesheet" href="{{url_for('static',filename='css/infix-postfix.css')}}" >
     <script src="{{url_for('static',filename='js/homepage.js')}}"></script>
 
 
 
-    <title>Postfix To Infix Conversion</title>
+    <title>Postfix To Infix Conversion - Daniel Vineel</title>
+    <meta name="description" content="Convert Postfix expressions to Infix expressions with this simple web tool created by Daniel Vineel.">
+    <meta name="keywords" content="Postfix to Infix, Expression Conversion, Daniel Vineel, Online Tool">
 </head>
 <body>
     <div id="outer-layer">
-
+        {% include 'header.html' %}
         <form id="PostfixToInfix" method="post">
             <label for="exp">Enter Postfix Expression :</label>
             <input type="text" name="expression" id="exp">
@@ -33,6 +35,7 @@
     </div>
     <!-- created by G Daniel Vineel -->
 <div style="text-align: center;color:white;position: absolute;top: 50px;left:0px;width:100%;">NOTE : for unary minus use ~ instead - </div>
+    {% include 'footer.html' %}
 </body>
 
 
