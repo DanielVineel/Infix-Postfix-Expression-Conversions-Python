@@ -39,10 +39,14 @@ form *{
     width:200px;
     height:50px;
     border-radius: 20px;
-    background-color: rgb(124, 196, 201);
-    color:black;
+    background-color: #0056b3;
+    color:white;
     font-size: large;
     cursor: pointer;
+    border: none;
+}
+#sub:hover {
+    background-color: #003d82;
 }
 form label{
     width: unset;

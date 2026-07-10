@@ -1,7 +1,7 @@
 
 /* created by G Daniel Vineel */
 #inner-layer{
-    border:1px solid white;
+    border:2px solid #0056b3; box-shadow: 0 0 15px rgba(0, 86, 179, 0.5);
     height:300px;
     
     width:450px;
@@ -20,8 +20,9 @@
 
 h3{
     text-align: center;
-    color:aqua;
+    color:#ffffff;
     font-size: larger;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .box{
@@ -29,7 +30,7 @@ h3{
     
     width: 150px;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid #0056b3; background-color: rgba(0, 31, 63, 0.6);
     height: 150px;
     padding: 10px;
     align-content: center;
