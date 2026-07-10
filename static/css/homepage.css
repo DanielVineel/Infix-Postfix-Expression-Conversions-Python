@@ -1,52 +1,47 @@
-
 /* created by G Daniel Vineel */
 #inner-layer{
-    border:2px solid #0056b3; box-shadow: 0 0 15px rgba(0, 86, 179, 0.5);
-    height:300px;
-    
-    width:450px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 450px;
     position: relative;
     left: calc(50% - 200px);
     border-radius: 25px;
-    background-color: rgba(245, 246, 248, 0.132);
+    background-color: #ffffff; /* White background for box */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border-left: unset;
-    border-right: unset;
-    
 }
 
 h3{
     text-align: center;
-    color:#ffffff;
+    color: #001F3F; /* Navy blue header */
     font-size: larger;
-    text-shadow: 1px 1px 2px #000;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .box{
-  
-    
     width: 150px;
     text-align: center;
-    border: 2px solid #0056b3; background-color: rgba(0, 31, 63, 0.6);
+    border: 2px solid #0056b3;
+    background-color: #f8fafc; /* Very light grey */
     height: 150px;
     padding: 10px;
     align-content: center;
     font-size: large;
-    font-weight: 400;
-    color:rgb(240, 246, 246);
+    font-weight: 500;
+    color: #001F3F; /* Navy text */
     border-radius: 25px;
-    /* background-color: rgb(215, 228, 235); */
     cursor: pointer;
-    transition: all 1s;
-      border-left: unset;
-    border-right: unset;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
+
 .box:hover{
-    /* box-shadow: 0px 0px 3px 2px rgb(225, 230, 234); */
-    /* border:1px solid rgb(158, 149, 149); */
-    text-decoration: underline;
-    scale:1.11;
+    background-color: #0056b3;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 86, 179, 0.2);
+    transform: translateY(-5px);
 }

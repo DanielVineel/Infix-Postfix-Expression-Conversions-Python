@@ -1,30 +1,13 @@
 body{
-   
     padding:0px;
     overflow: hidden;
-    color:white;
-    /* font-family: Verdana, Geneva, Tahoma,serif; */
-
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    
-    font-family: 'Times New Roman', Times, serif;
-    
-    /*Created by G Daniel Vineel
-
-
-
-     background-image: linear-gradient(40deg,blueviolet,red); */
-    /* background-image: linear-gradient(40deg,  #0000FF,#000000,#4B0082); */
-
-
-background: linear-gradient(135deg, #001F3F 0%, #0056b3 100%);
+    color: #333333; /* Dark text for light theme */
+    font-family: 'Arial', Helvetica, sans-serif; /* Modern font */
+    background: #f4f6f9; /* Light grey background */
 }
+
 #outer-layer{
     padding:10px;
-   
-    /* background-image: linear-gradient(40deg,blueviolet,red); */
     width: calc(100% - 10px);
     height: 100vh;
-    
 }
