@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='images/coding-logo.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}" >
+    <title>My Data</title>
+    <style>
+        #mydata-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        #mydata-container a {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+        #mydata-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer-layer">
+        <div id="mydata-container">
+            <h2>About Me</h2>
+            <p>Created by G. Daniel Vineel</p>
+            <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/danielvineel" target="_blank">linkedin.com/in/danielvineel</a></p>
+            <br>
+            <a href="{{ url_for('index') }}" style="color: white; text-decoration: underline;">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

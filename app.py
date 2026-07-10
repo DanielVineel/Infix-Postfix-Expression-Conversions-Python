@@ -11,6 +11,10 @@ app=Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/mydata")
+def mydata():
+    return render_template("mydata.html")
+
 @app.route("/infix-postfix")
 def infix():
     return render_template("infix-postfix.html")
@@ -22,11 +26,11 @@ def postfix():
 @app.route("/InToPost",methods=["POST"])
 def getPostfixExpression():
     data=request.json.get("expression"," ")
-    
+
     expression=data.replace(" ","")
     try:
         postfixExpression=InfixExpression(expression).getPostfixExpression()
-        
+
         return f"{postfixExpression}"
     except Exception as e:
         return f"Invalid Syntax"
@@ -34,10 +38,10 @@ def getPostfixExpression():
 @app.route("/PostToIn",methods=["POST"])
 def getInfixExpression():
     expression=request.json.get("expression"," ")
-    
+
     try:
         postfixExpression=PostfixExpression(expression).getInfixExpression()
-        
+
         return f"{postfixExpression}"
     except Exception as e:
         return f"Invalid Syntax"
