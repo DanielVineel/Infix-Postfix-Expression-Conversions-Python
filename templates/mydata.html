@@ -10,18 +10,24 @@
     <meta name="keywords" content="Daniel Vineel, My Data, Profile, LinkedIn">
     <style>
         #mydata-container {
-            background-color: rgba(0, 31, 63, 0.8); border: 2px solid #0056b3;
+            background-color: #ffffff;
+            border: 1px solid #d1d5db;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 10px;
-            color: white;
+            color: #333333;
             text-align: center;
             margin: 20px auto;
             width: 80%;
             max-width: 600px;
         }
+        #mydata-container h2 {
+            color: #001F3F;
+        }
         #mydata-container a {
-            color: #66b2ff;
+            color: #0056b3;
             text-decoration: none;
+            font-weight: bold;
         }
         #mydata-container a:hover {
             text-decoration: underline;
@@ -36,7 +42,7 @@
             <p>Created by G. Daniel Vineel</p>
             <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/danielvineel" target="_blank">linkedin.com/in/danielvineel</a></p>
             <br>
-            <a href="{{ url_for('index') }}" style="color: white; text-decoration: underline;">Back to Home</a>
+            <a href="{{ url_for('index') }}" style="color: #0056b3; text-decoration: underline;">Back to Home</a>
         </div>
     </div>
 </body>

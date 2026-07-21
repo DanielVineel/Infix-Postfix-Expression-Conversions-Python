@@ -1,29 +1,26 @@
 /*created by G Daniel Vineel*/
 form{
-   
-    
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-   
+    border: 1px solid #d1d5db;
     justify-content: center;
     padding:10px;
     border-radius:  25px;
-    background-color: rgba(240, 248, 255, 0.17);
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 form,#result{
     position: relative;
     height:200px;
     top:calc(50% - 140px);
-    
+
     left:calc(50% - 350px);
     width:300px;
     padding:10px;
     border-radius:  25px;
-    background-color: rgba(240, 248, 255, 0.17);
-
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 form *{
     margin:20px;
@@ -33,7 +30,10 @@ form *{
 #exp{
     border-radius: 23px;
     height: 60px;
-    padding: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
 }
 #sub{
     width:200px;
@@ -44,6 +44,7 @@ form *{
     font-size: large;
     cursor: pointer;
     border: none;
+    transition: background-color 0.3s;
 }
 #sub:hover {
     background-color: #003d82;
@@ -52,8 +53,8 @@ form label{
     width: unset;
     height: unset;
     margin: unset;
-    /* color:black; */
-    font-weight: 500;
+    color: #001F3F;
+    font-weight: bold;
     font-size: large;
 }
 #result{
@@ -62,6 +63,7 @@ form label{
     scrollbar-width: none;
     overflow-x: hidden;
     text-align: center;
+    color: #001F3F;
 }
 #result *{
     scrollbar-width: none;
@@ -72,10 +74,12 @@ form label{
     width:98%;
     overflow-x: scroll;
     text-align: center;
-    color:rgb(221, 232, 10);
+    color:#0056b3;
+    background-color: #f0f8ff;
+    font-weight: bold;
     overflow-y: hidden;
     text-wrap: nowrap;
-    border:1px inset white;
+    border:1px solid #0056b3;
     padding:0.25%;
 }
 #outer-layer{
